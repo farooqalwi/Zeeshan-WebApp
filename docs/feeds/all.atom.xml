@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Country</title><link href="https://country.com/" rel="alternate"></link><link href="https://country.com/feeds/all.atom.xml" rel="self"></link><id>https://country.com/</id><updated>2018-12-05T19:30:00+01:00</updated><entry><title>Python</title><link href="https://country.com/python.html" rel="alternate"></link><published>2017-12-03T10:20:00+01:00</published><updated>2018-12-05T19:30:00+01:00</updated><author><name>Muhammad Zeeshan</name></author><id>tag:country.com,2017-12-03:/python.html</id><summary type="html">&lt;h3&gt;Q: Write code for faulty calculator Which perform following functions ?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Multiplication&lt;/li&gt;
+&lt;li&gt;Addition&lt;/li&gt;
+&lt;li&gt;Subtrection&lt;/li&gt;
+&lt;li&gt;Decision&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;It performs Following faults.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;45 x 3 =555&lt;/li&gt;
+&lt;li&gt;56 + 9 =77&lt;/li&gt;
+&lt;li&gt;60 - 8 =22&lt;/li&gt;
+&lt;li&gt;56 / 4 =22&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Code:-&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter Your Choice &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;opr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;+,-,*,/ &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;opr&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;+&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;:
+    &lt;span class="nv"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter First Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="nv"&gt;num2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h3&gt;Q: Write code for faulty calculator Which perform following functions ?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Multiplication&lt;/li&gt;
+&lt;li&gt;Addition&lt;/li&gt;
+&lt;li&gt;Subtrection&lt;/li&gt;
+&lt;li&gt;Decision&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;It performs Following faults.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;45 x 3 =555&lt;/li&gt;
+&lt;li&gt;56 + 9 =77&lt;/li&gt;
+&lt;li&gt;60 - 8 =22&lt;/li&gt;
+&lt;li&gt;56 / 4 =22&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Code:-&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter Your Choice &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;opr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;+,-,*,/ &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;opr&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;+&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;:
+    &lt;span class="nv"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter First Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="nv"&gt;num2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter Second Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;56&lt;/span&gt; &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;56+9=77&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;num1&lt;/span&gt;, &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;+&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;, &lt;span class="nv"&gt;num2&lt;/span&gt;, &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;, &lt;span class="nv"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;elif&lt;/span&gt; &lt;span class="nv"&gt;opr&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;-&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;:
+    &lt;span class="nv"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter First Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="nv"&gt;num2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter Second Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;60&lt;/span&gt; &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;60-8 =22&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;num1&lt;/span&gt;,&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;-&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;,&lt;span class="nv"&gt;num2&lt;/span&gt;,&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;,&lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;elif&lt;/span&gt; &lt;span class="nv"&gt;opr&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;*&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;:
+    &lt;span class="nv"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter First Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="nv"&gt;num2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter Second Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;45&lt;/span&gt; &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;45x3=555&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;num1&lt;/span&gt;,&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;*&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;,&lt;span class="nv"&gt;num2&lt;/span&gt;,&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;,&lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;elif&lt;/span&gt; &lt;span class="nv"&gt;opr&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="s"&gt;/&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;:
+    &lt;span class="nv"&gt;num1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter First Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="nv"&gt;num2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;int&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;input&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Enter Second Number =&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;))&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;56&lt;/span&gt; &lt;span class="nv"&gt;and&lt;/span&gt; &lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;56/6=4&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;:
+        &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;num1&lt;/span&gt;,&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;/&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;,&lt;span class="nv"&gt;num2&lt;/span&gt;,&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;,&lt;span class="nv"&gt;num1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;num2&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;:
+    &lt;span class="nv"&gt;print&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;Mistake&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;Output:-&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Output" src="images\b.png"&gt;&lt;/p&gt;</content><category term="Programing languages"></category><category term="Programing languages"></category></entry><entry><title>Histroy of Pakistan</title><link href="https://country.com/histroy-of-pakistan.html" rel="alternate"></link><published>2017-06-08T10:30:00+02:00</published><updated>2017-06-08T10:30:00+02:00</updated><author><name>Muhammad Zeeshan</name></author><id>tag:country.com,2017-06-08:/histroy-of-pakistan.html</id><summary type="html">&lt;h1&gt;تاریخ پاکستان&lt;/h1&gt;
+&lt;p&gt;TThe history of Pakistan encompasses the region of the Indus Valley,[1][2][3][4] which spans the western expanse of the Indian subcontinent and the eastern Iranian plateau.[5] The region served both as the fertile ground of a major civilisation and as the gateway of South …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;تاریخ پاکستان&lt;/h1&gt;
+&lt;p&gt;TThe history of Pakistan encompasses the region of the Indus Valley,[1][2][3][4] which spans the western expanse of the Indian subcontinent and the eastern Iranian plateau.[5] The region served both as the fertile ground of a major civilisation and as the gateway of South Asia to Central Asia and the Near East.[6][7]&lt;/p&gt;
+&lt;p&gt;Situated on the first coastal migration route of Homo sapiens out of Africa, the region was inhabited early by modern humans.[8][9] The 9,000-year history of village life in South Asia traces back to the Neolithic (7000–4300 BCE) site of Mehrgarh in Pakistan,[10][11][12] and the 5,000-year history of urban life in South Asia to the various sites of the Indus Valley Civilization, including Mohenjo Daro and Harappa.[13][14]
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Mohenjo-daro_Priesterk%C3%B6nig.jpeg" /&gt;
+Pakistan is a nuclear power as well as a declared nuclear-weapon state, having conducted six nuclear tests in response to five nuclear tests of their rival Republic of India in May 1998. The first five tests were conducted on 28 May and the sixth one on 30 May. With this status, Pakistan is seventh in world, second in South Asia and the only country in the Islamic World. Pakistan also has the sixth-largest standing armed forces in the world and is spending a major amount of its budget on defense. Pakistan is the founding member of the OIC, the SAARC and the Islamic Military Counter Terrorism Coalition as well as a member of many international organisations including the UN, the Shanghai Cooperation Organisation, the Commonwealth of Nations, the ARF, the Economic Cooperation Organization and many more.&lt;/p&gt;</content><category term="History"></category><category term="History"></category></entry><entry><title>Histroy of China</title><link href="https://country.com/histroy-of-china.html" rel="alternate"></link><published>2017-05-08T10:20:00+02:00</published><updated>2017-05-08T10:20:00+02:00</updated><author><name>Muhammad Zeeshan</name></author><id>tag:country.com,2017-05-08:/histroy-of-china.html</id><summary type="html">&lt;h1&gt;افغانستان تاريخ&lt;/h1&gt;
+&lt;p&gt;The earliest known written records of the history of China date from as early as 1250 BC, from the Shang dynasty (c. 1600–1046 BC), during the king Wu Ding's reign,[1][2] who was mentioned as the twenty-first Shang king by the same.[3][4] Ancient historical …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;افغانستان تاريخ&lt;/h1&gt;
+&lt;p&gt;The earliest known written records of the history of China date from as early as 1250 BC, from the Shang dynasty (c. 1600–1046 BC), during the king Wu Ding's reign,[1][2] who was mentioned as the twenty-first Shang king by the same.[3][4] Ancient historical texts such as the Book of Documents (early chapters, 11th century BC), the Records of the Grand Historian (c. 100 BC) and the Bamboo Annals (296 BC) mention and describe a Xia dynasty (c. 2070–1600 BC) before the Shang, but no writing is known from the period, and Shang writings do not indicate the existence of the Xia.[5] The Shang ruled in the Yellow River valley, which is commonly held to be the cradle of Chinese civilization. However, Neolithic civilizations originated at various cultural centers along both the Yellow River and Yangtze River. These Yellow River and Yangtze civilizations arose millennia before the Shang. With thousands of years of continuous history, China is one of the world's oldest civilizations and is regarded as one of the cradles of civilization.[6]
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/%22History_of_China%22_for_template_heading.svg/1920px-%22History_of_China%22_for_template_heading.svg.png" /&gt;
+Chinese history has alternated between periods of political unity and peace, and periods of war and failed statehood—the most recent being the Chinese Civil War (1927–1949). China was occasionally dominated by steppe peoples, most of whom were eventually assimilated into the Han Chinese culture and population. Between eras of multiple kingdoms and warlordism, Chinese dynasties have ruled parts or all of China; in some eras control stretched as far as Xinjiang and Tibet, as at present. Traditional culture, and influences from other parts of Asia and the Western world (carried by waves of immigration, cultural assimilation, expansion, and foreign contact), form the basis of the modern culture.&lt;/p&gt;</content><category term="History"></category><category term="History"></category></entry><entry><title>Histroy of Afghanistan</title><link href="https://country.com/histroy-of-afghanistan.html" rel="alternate"></link><published>2015-12-08T10:20:00+01:00</published><updated>2015-12-08T10:20:00+01:00</updated><author><name>Muhammad Zeeshan</name></author><id>tag:country.com,2015-12-08:/histroy-of-afghanistan.html</id><summary type="html">&lt;h1&gt;افغانستان تاريخ&lt;/h1&gt;
+&lt;p&gt;The history of Afghanistan (Persian: تاریخ افغانستان‎, Tārīkh e Afġānistān; Pashto: د افغانستان تاريخ‎, Da Afġānistān Tārīkh) as a state began in 1747 with its establishment by Ahmad Shah Durrani. The written recorded history of the land presently constituting Afghanistan can be traced back to around 500 BCE …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;افغانستان تاريخ&lt;/h1&gt;
+&lt;p&gt;The history of Afghanistan (Persian: تاریخ افغانستان‎, Tārīkh e Afġānistān; Pashto: د افغانستان تاريخ‎, Da Afġānistān Tārīkh) as a state began in 1747 with its establishment by Ahmad Shah Durrani. The written recorded history of the land presently constituting Afghanistan can be traced back to around 500 BCE when the area was under the Achaemenid Empire,[1] although evidence indicates that an advanced degree of urbanized culture has existed in the land since between 3000 and 2000 BCE.[2][3][4] Bactria dates back to 2500 BC.[5] The Indus Valley Civilisation stretched up to large parts of Afghanistan in the north.[6] Alexander the Great and his Macedonian army arrived at what is now Afghanistan in 330 BCE after the fall of the Achaemenid Empire during the Battle of Gaugamela.[7] Since then, many empires have risen from Afghanistan, including the Greco-Bactrians, Kushans, Hephthalites, Saffarids, Samanids, Ghaznavids, Ghorids, Khaljis, Timurids, Mughals, Hotakis and Durranis.[8]
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Shuja_Shah_Durrani_of_Afghanistan_in_1839.jpg/800px-Shuja_Shah_Durrani_of_Afghanistan_in_1839.jpg" /&gt;
+Interior of the palace of Shauh Shujah Ool Moolk, Late King of Cabul This lithograph is taken from plate 3 of 'Afghaunistan' by Lieutenant James Rattray. This scene shows Shah Shuja in 1839 after his enthronement as Emir of Afghanistan in the Bala Hissar (fort) of Kabul. Rattray wrote: "The Shah was a man of great personal beauty, and so well got up, that none could have guessed his age." He continued: "the wild grandeur of the whole pageantry baffles description." The population watched Shuja's grand entry in absolute silence. He was then seated on a white and reputedly ancient marble throne. From here he could be seen by the court in the quadrangle below. The wooden arches and pillars surrounding him were carved and painted and the ceiling richly decorated. A year later the sanctity of the scene was bloodily violated: Shah Shuja was murdered and "the sacred throne, [became] a lounge, a pitch-and-toss table."&lt;/p&gt;</content><category term="History"></category><category term="History"></category></entry><entry><title>C#</title><link href="https://country.com/c.html" rel="alternate"></link><published>2010-03-03T10:20:00+01:00</published><updated>2010-12-06T19:30:00+01:00</updated><author><name>Muhammad Zeeshan</name></author><id>tag:country.com,2010-03-03:/c.html</id><summary type="html">&lt;h4&gt;Q: Write a code to print rt.angle triangle ?&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+***********
+************
+*************
+**************
+***************
+****************
+*****************
+******************
+*******************
+********************
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;Code:-&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;namespace&lt;/span&gt; &lt;span class="nv"&gt;ConsoleApplication1&lt;/span&gt;
+{
+    &lt;span class="nv"&gt;class&lt;/span&gt; &lt;span class="nv"&gt;Program&lt;/span&gt;
+    {
+        &lt;span class="nv"&gt;static&lt;/span&gt; &lt;span class="nv"&gt;void&lt;/span&gt; &lt;span class="nv"&gt;Main&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;string&lt;/span&gt;[] &lt;span class="nv"&gt;args&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+        {
+            &lt;span class="nv"&gt;int&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+            &lt;span class="nv"&gt;int&lt;/span&gt; &lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;j&lt;/span&gt;, &lt;span class="nv"&gt;k&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="c1"&gt;; i &amp;lt;=a; i++)&lt;/span&gt;
+            {
+                &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;j&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="c1"&gt;; j &amp;lt;= i; j++)&lt;/span&gt;
+                {
+                    &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;Write&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+                }
+                &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;k&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="c1"&gt;; k &amp;lt;= i; k++)&lt;/span&gt;
+                {
+                    &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;Write&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;*&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+                }
+                &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;WriteLine …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h4&gt;Q: Write a code to print rt.angle triangle ?&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+***********
+************
+*************
+**************
+***************
+****************
+*****************
+******************
+*******************
+********************
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;Code:-&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;namespace&lt;/span&gt; &lt;span class="nv"&gt;ConsoleApplication1&lt;/span&gt;
+{
+    &lt;span class="nv"&gt;class&lt;/span&gt; &lt;span class="nv"&gt;Program&lt;/span&gt;
+    {
+        &lt;span class="nv"&gt;static&lt;/span&gt; &lt;span class="nv"&gt;void&lt;/span&gt; &lt;span class="nv"&gt;Main&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;string&lt;/span&gt;[] &lt;span class="nv"&gt;args&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;
+        {
+            &lt;span class="nv"&gt;int&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+            &lt;span class="nv"&gt;int&lt;/span&gt; &lt;span class="nv"&gt;i&lt;/span&gt;, &lt;span class="nv"&gt;j&lt;/span&gt;, &lt;span class="nv"&gt;k&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="c1"&gt;; i &amp;lt;=a; i++)&lt;/span&gt;
+            {
+                &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;j&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="c1"&gt;; j &amp;lt;= i; j++)&lt;/span&gt;
+                {
+                    &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;Write&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+                }
+                &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;k&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="c1"&gt;; k &amp;lt;= i; k++)&lt;/span&gt;
+                {
+                    &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;Write&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="s"&gt;*&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+                }
+                &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;WriteLine&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+            }
+            &lt;span class="nv"&gt;Console&lt;/span&gt;.&lt;span class="nv"&gt;ReadLine&lt;/span&gt;&lt;span class="ss"&gt;()&lt;/span&gt;&lt;span class="c1"&gt;;&lt;/span&gt;
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1&gt;Output:-&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="triangle image" src="images\z.png"&gt;&lt;/p&gt;</content><category term="Programing languages"></category><category term="Programing languages"></category></entry></feed>
